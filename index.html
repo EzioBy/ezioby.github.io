@@ -1,0 +1,450 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Qingyan Bai</title>
+  <meta name="author" content="Qingyan Bai" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="assets/present.png" type="image/png">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <!-- Author mapping and rendering sorted by last name -->
+  <script defer>
+    const authors = {
+      "Qingyan Bai": "",
+      "Mingdeng Cao": "https://github.com/ljzycmd",
+      "Qifeng Chen": "https://cqf.io/",
+      "Yifan Chen": "",
+      "Ka Leong Cheng": "https://felixcheng97.github.io/",
+      "Xiaodong Cun": "https://vinthony.github.io/academic/",
+      "Bo Dai": "https://datascience.hku.hk/people/bo-dai/",
+      "Yanbo Fan": "https://sites.google.com/site/yanbofan0124/",
+      "Xihui Liu": "https://xh-liu.github.io/",
+      "Zichen Liu": "https://zliucz.github.io/",
+      "Shuailei Ma": "https://openreview.net/profile?id=~Shuailei_Ma1",
+      "Hao Ouyang": "https://ken-ouyang.github.io/",
+      "Yujun Shen": "https://shenyujun.github.io/index.html",
+      "Shuwei Shi": "https://shuweis.github.io/",
+      "Zifan Shi": "https://vivianszf.github.io/",
+      "Hanlin Wang": "https://openreview.net/profile?id=~Hanlin_Wang2",
+      "Jiahao Wang": "https://openreview.net/profile?id=~Jiahao_Wang1",
+      "Jue Wang": "https://openreview.net/profile?id=~Jue_Wang2",
+      "Qiuyu Wang": "https://github.com/qiuyu96",
+      "Wen Wang": "https://encounter1997.github.io/",
+      "Xuan Wang": "https://xuanwangvc.github.io/",
+      "Gordon Wetzstein": "https://stanford.edu/~gordonwz/",
+      "Baoyuan Wu": "https://sites.google.com/site/baoyuanwu2015/home",
+      "Weihao Xia": "https://github.com/weihaox",
+      "Yuxi Xiao": "https://www.linkedin.com/in/yuxi-xiao-7498b0253/",
+      "Yinghao Xu": "https://justimyhxu.github.io/",
+      "Ceyuan Yang": "https://ceyuan.me/",
+      "Mengping Yang": "https://forevermamba.work/",
+      "Yujiu Yang": "https://iigroup.github.io/about/",
+      "Fei Yin": "https://feiiyin.github.io/",
+      "Yue Yu": "https://bruceyy.com/",
+      "Yanhong Zeng": "https://zengyh1900.github.io/",
+      "Juntao Zhang": "",
+      "Yichi Zhang": "",
+      "Yong Zhang": "https://yzhang2016.github.io/",
+      "Kecheng Zheng": "https://zkcys001.github.io/",
+      "Xiaowei Zhou": "https://xzhou.me/",
+      "Jiapeng Zhu": "https://openreview.net/profile?id=~Jiapeng_Zhu1",
+      "Robbyant Team": "https://github.com/Robbyant"
+    };
+
+    function renderAuthor(nameRaw) {
+      const hasAsterisk = /\*+$/.test(nameRaw);
+      const nameTrimmed = nameRaw.replace(/\*+$/,'').trim();
+      const display = nameTrimmed + (hasAsterisk ? '*' : '');
+      if (nameTrimmed === 'Qingyan Bai') return `<strong>${display}</strong>`;
+      const url = authors[nameTrimmed];
+      return url ? `<a href="${url}">${display}</a>` : display;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.author').forEach(el => {
+        const name = el.getAttribute('data-name')?.trim();
+        if (!name) return;
+        el.outerHTML = renderAuthor(name);
+      });
+
+      // Video auto-play support
+      document.querySelectorAll('.poster-wrap.one video').forEach(video => {
+        video.muted = true;
+        video.loop = true;
+        video.playsInline = true;
+        video.autoplay = true;
+        video.preload = 'auto';
+        video.play().catch(e => console.log('Video auto-play failed:', e));
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <table class="container-table"><tbody>
+    <tr><td>
+
+      <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+        <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+          </td>
+        </tr>
+      </tbody></table>
+
+      <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+        <tr>
+          <td style="padding:2.5%;width:70%;vertical-align:middle">
+            <p style="text-align:center"><name>Qingyan Bai</name></p>
+            <p>
+              Hi! I am a third-year PhD student in Computer Science and Engineering at The Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://cqf.io">Prof. Qifeng Chen</a>. 
+              I received my master's degree at Tsinghua University in <a href="https://iigroup.github.io/">IIGroup</a>, supervised by <a href="https://iigroup.github.io/about/">Prof. Yujiu Yang</a>.
+              My research interests include generative models and agents. 
+            </p>
+            <p style="text-align:center">
+              <a href="mailto:qingyanbai@hotmail.com">Email</a> &nbsp;/&nbsp;
+              <a href="https://github.com/EzioBy">Github</a> &nbsp;/&nbsp;
+              <a href="https://scholar.google.com/citations?user=xUMjxi4AAAAJ">Google Scholar</a>
+            </p>
+          </td>
+          <td style="padding:2.5%;width:22%;max-width:22%">
+            <a href="assets/Qingyan_BAI.jpg">
+              <img src="assets/Qingyan_BAI.jpg" alt="Qingyan Bai" loading="lazy">
+            </a>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <a id="Publications"></a>
+      <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+        <tr><td><heading>Research</heading><p>(* indicates equal contribution)</p></td></tr>
+
+
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <video src="assets/lingbot-world.mp4"></video>
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://technology.robbyant.com/lingbot-world"><papertitle>Lingbot-World: Advancing Open-source World Models</papertitle></a>
+            <br>
+            <span class="author" data-name="Robbyant Team"></span>
+            <br>
+            <em>Technical Report</em> 2026 &nbsp
+            <br>
+            <a href="https://arxiv.org/abs/2601.20540">Paper</a> /
+            <a href="https://technology.robbyant.com/lingbot-world">Project Page</a>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <video src="assets/ditto.mp4"></video>
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://arxiv.org/abs/2510.15742"><papertitle>Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset</papertitle></a>
+            <br>
+            <span class="author" data-name="Qingyan Bai"></span>,
+            <span class="author" data-name="Qiuyu Wang"></span>,
+            <span class="author" data-name="Hao Ouyang"></span>,
+            <span class="author" data-name="Yue Yu"></span>,
+            <span class="author" data-name="Hanlin Wang"></span>,
+            <span class="author" data-name="Wen Wang"></span>,
+            <span class="author" data-name="Ka Leong Cheng"></span>,
+            <span class="author" data-name="Shuailei Ma"></span>,
+            <span class="author" data-name="Yanhong Zeng"></span>,
+            <span class="author" data-name="Zichen Liu"></span>,
+            <span class="author" data-name="Yinghao Xu"></span>,
+            <span class="author" data-name="Yujun Shen"></span>,
+            <span class="author" data-name="Qifeng Chen"></span>
+            <br>
+            <em>Preprint</em> 2025 &nbsp
+            <br>
+            <a href="https://arxiv.org/abs/2510.15742">Paper</a> /
+            <a href="https://ezioby.github.io/Ditto_page/">Project Page</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/edicho.jpg" alt="Edicho" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://iccv.thecvf.com/virtual/2025/poster/1408"><papertitle>Edicho: Consistent Image Editing in the Wild</papertitle></a>
+            <br>
+            <span class="author" data-name="Qingyan Bai"></span>,
+            <span class="author" data-name="Hao Ouyang"></span>,
+            <span class="author" data-name="Yinghao Xu"></span>,
+            <span class="author" data-name="Qiuyu Wang"></span>,
+            <span class="author" data-name="Ceyuan Yang"></span>,
+            <span class="author" data-name="Ka Leong Cheng"></span>,
+            <span class="author" data-name="Yujun Shen"></span>,
+            <span class="author" data-name="Qifeng Chen"></span>
+            <br>
+            <em>ICCV</em> 2025 &nbsp
+            <br>
+            <a href="https://arxiv.org/pdf/2412.21079">Paper</a> /
+            <a href="https://ant-research.github.io/edicho/">Project Page</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/3DPE.png" alt="3D-aware Portrait Editing" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6814_ECCV_2024_paper.php"><papertitle>Real-time 3D-aware Portrait Editing from a Single Image</papertitle></a>
+            <br>
+            <span class="author" data-name="Qingyan Bai"></span>,
+            <span class="author" data-name="Zifan Shi"></span>,
+            <span class="author" data-name="Yinghao Xu"></span>,
+            <span class="author" data-name="Hao Ouyang"></span>,
+            <span class="author" data-name="Qiuyu Wang"></span>,
+            <span class="author" data-name="Ceyuan Yang"></span>,
+            <span class="author" data-name="Xuan Wang"></span>,
+            <span class="author" data-name="Gordon Wetzstein"></span>,
+            <span class="author" data-name="Yujun Shen"></span>,
+            <span class="author" data-name="Qifeng Chen"></span>
+            <br>
+            <em>ECCV</em> 2024 &nbsp
+            <br>
+            <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06814.pdf">Paper</a> /
+            <a href="https://ezioby.github.io/3dpe/">Project Page</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/codef.gif" alt="CoDeF" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Ouyang_CoDeF_Content_Deformation_Fields_for_Temporally_Consistent_Video_Processing_CVPR_2024_paper.html"><papertitle>CoDeF: Content Deformation Fields for Temporally Consistent Video Processing</papertitle></a>
+            <br>
+            <span class="author" data-name="Hao Ouyang*"></span>,
+            <span class="author" data-name="Qiuyu Wang*"></span>,
+            <span class="author" data-name="Yuxi Xiao*"></span>,
+            <span class="author" data-name="Qingyan Bai"></span>,
+            <span class="author" data-name="Juntao Zhang"></span>,
+            <span class="author" data-name="Kecheng Zheng"></span>,
+            <span class="author" data-name="Xiaowei Zhou"></span>,
+            <span class="author" data-name="Qifeng Chen"></span>,
+            <span class="author" data-name="Yujun Shen"></span>
+            <br>
+            <em>CVPR</em> 2024 <strong style="color:red"> (Highlight Paper)</strong> &nbsp
+            <br>
+            <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ouyang_CoDeF_Content_Deformation_Fields_for_Temporally_Consistent_Video_Processing_CVPR_2024_paper.pdf">Paper</a> /
+            <a href="https://qiuyu96.github.io/CoDeF/">Project Page</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/glead.png" alt="GLeaD" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Bai_GLeaD_Improving_GANs_With_a_Generator-Leading_Task_CVPR_2023_paper.html"><papertitle>GLeaD: Improving GANs with A Generator-Leading Task</papertitle></a>
+            <br>
+            <span class="author" data-name="Qingyan Bai"></span>,
+            <span class="author" data-name="Ceyuan Yang"></span>,
+            <span class="author" data-name="Yinghao Xu"></span>,
+            <span class="author" data-name="Xihui Liu"></span>,
+            <span class="author" data-name="Yujiu Yang"></span>,
+            <span class="author" data-name="Yujun Shen"></span>
+            <br>
+            <em>CVPR</em> 2023 &nbsp
+            <br>
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_GLeaD_Improving_GANs_With_a_Generator-Leading_Task_CVPR_2023_paper.pdf">Paper</a> /
+            <a href="https://ezioby.github.io/glead/">Project Page</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/evalgan.png" alt="NeurIPS 2023" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/1e5fa672b2c35744cbcfacb2e77f1cb0-Abstract-Datasets_and_Benchmarks.html"><papertitle>Revisiting the Evaluation of Image Synthesis with GANs</papertitle></a>
+            <br>
+            <span class="author" data-name="Mengping Yang"></span>*,
+            <span class="author" data-name="Ceyuan Yang"></span>*,
+            <span class="author" data-name="Yichi Zhang"></span>,
+            <span class="author" data-name="Qingyan Bai"></span>,
+            <span class="author" data-name="Yujun Shen"></span>,
+            <span class="author" data-name="Bo Dai"></span>
+            <br>
+            <em>NeurIPS</em> 2023 (D&B) &nbsp
+            <br>
+            <a href="https://arxiv.org/pdf/2304.01999">Paper</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/padinv.jpg" alt="GAN Inversion" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/877_ECCV_2022_paper.php"><papertitle>High-fidelity GAN Inversion with Padding Space</papertitle></a>
+            <br>
+            <span class="author" data-name="Qingyan Bai"></span>*,
+            <span class="author" data-name="Yinghao Xu"></span>*,
+            <span class="author" data-name="Jiapeng Zhu"></span>,
+            <span class="author" data-name="Weihao Xia"></span>,
+            <span class="author" data-name="Yujiu Yang"></span>,
+            <span class="author" data-name="Yujun Shen"></span>
+            <br>
+            <em>ECCV</em> 2022 &nbsp
+            <br>
+            <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136750036.pdf">Paper</a> /
+            <a href="https://ezioby.github.io/padinv/">Project Page</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/styleheat.jpg" alt="Talking Face" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5856_ECCV_2022_paper.php"><papertitle>One-Shot High-Resolution Editable Talking Face Generation via Pre-trained StyleGAN</papertitle></a>
+            <br>
+            <span class="author" data-name="Fei Yin"></span>,
+            <span class="author" data-name="Yong Zhang"></span>,
+            <span class="author" data-name="Xiaodong Cun"></span>,
+            <span class="author" data-name="Mingdeng Cao"></span>,
+            <span class="author" data-name="Yanbo Fan"></span>,
+            <span class="author" data-name="Xuan Wang"></span>,
+            <span class="author" data-name="Qingyan Bai"></span>,
+            <span class="author" data-name="Baoyuan Wu"></span>,
+            <span class="author" data-name="Jue Wang"></span>,
+            <span class="author" data-name="Yujiu Yang"></span>
+            <br>
+            <em>ECCV</em> 2022 &nbsp
+            <br>
+            <a href="https://arxiv.org/pdf/2203.04036">Paper</a> /
+            <a href="https://feiiyin.github.io/StyleHEAT/">Project Page</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pub-left">
+            <div class="poster-wrap one">
+              <img src="assets/radn.jpg" alt="Region-adaptive Deformable Network" loading="lazy">
+            </div>
+          </td>
+          <td class="pub-right">
+            <a href="https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/html/Shi_Region-Adaptive_Deformable_Network_for_Image_Quality_Assessment_CVPRW_2021_paper.html"><papertitle>Region-adaptive Deformable Network for Image Quality Assessment</papertitle></a>
+            <br>
+            <span class="author" data-name="Shuwei Shi"></span>*,
+            <span class="author" data-name="Qingyan Bai"></span>*,
+            <span class="author" data-name="Mingdeng Cao"></span>,
+            <span class="author" data-name="Weihao Xia"></span>,
+            <span class="author" data-name="Jiahao Wang"></span>,
+            <span class="author" data-name="Yifan Chen"></span>,
+            <span class="author" data-name="Yujiu Yang"></span>
+            <br>
+            <em>CVPR</em> 2021 <a href="https://data.vision.ee.ethz.ch/cvl/ntire21/">NTIRE Workshop</a> &nbsp
+            <br>
+            <a href="https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Shi_Region-Adaptive_Deformable_Network_for_Image_Quality_Assessment_CVPRW_2021_paper.pdf">Paper</a>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <a id="experiences"></a>
+      <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+        <tr><td><heading>Experiences</heading></td></tr>
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="exp-logo">
+              <img src="assets/antgroup.png" alt="Ant Group" loading="lazy">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Research Intern, AntGroup</papertitle>
+            <p>Research Intern in Generative Models</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="exp-logo">
+              <img src="assets/bytedance.png" alt="Bytedance" loading="lazy">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Research Intern, Bytedance</papertitle>
+            <p>Research Intern in Generative Models</p>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <a id="Awards"></a>
+      <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+        <tr>
+          <td>
+            <heading style="display:block; margin-bottom:12px">Selected Awards</heading>
+            <ul>
+              <li>Academic Excellence Award, HKUST</li>
+              <li>Outstanding Graduate of Beijing</li>
+              <li>First-Class Scholarship for Outstanding Students, Tsinghua University</li>
+              <li>National Scholarship, Twice (2017 & 2018)</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <a id="Professional Activities"></a>
+      <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+        <tr>
+          <td>
+            <heading style="display:block; margin-bottom:12px; margin-top:15px">Professional Activities</heading>
+            <ul>
+              <li>Reviewer for CVPR, ECCV, ICCV, ICLR, NeurIPS, SIGGRAPH</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+        <tr>
+          <td style="padding:0">
+            <br>
+            <p style="text-align:center;font-size:small;">
+              Thank <a href="https://jonbarron.info/">Dr. Jon Barron</a> for sharing the source code of his personal page.
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+
+    </td></tr>
+  </tbody></table>
+</body>
+</html>
