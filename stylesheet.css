@@ -220,6 +220,17 @@ img {
   padding-top: 10px;
 }
 
+/* Short publication entries: keep the media and metadata visually grouped. */
+.compact-publication .pub-left,
+.compact-publication .pub-right {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.compact-publication .pub-right {
+  vertical-align: middle;
+}
+
 /* Experiences icons: keep them compact and consistent */
 .exp-logo { 
   display:inline-block; 
